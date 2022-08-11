@@ -1,0 +1,83 @@
+# =================================================================
+# theme globals
+# =================================================================
+remote_theme: minlearn3/theme-minlearnprogramming
+plugins:
+- jekyll-remote-theme
+#baseurl: "/onekeydevdesk"
+sass:
+  style: :compressed
+exclude:
+  - LICENSE
+  - CNAME
+  - readme.md
+  - readme_en.md
+collections_dir: _build/p
+collections:
+  booklets:
+    output: true
+  blogs:
+    output: true
+  docs:
+    output: true
+  vms:
+    output: true
+  pages:
+    output: true
+markdown: kramdown
+
+# =================================================================
+# theme settings
+# =================================================================
+page_title                                : Minlearn's techs - minlearnprogramming,onekeydevdesk
+ios_app_id                                : 
+appstore_link                             : 
+playstore_link                            : 
+github_link                               : https://github.com/minlearn3/
+presskit_download_link                    : 
+app_icon                                  : assets/appicon.png
+app_name                                  : Minlearn's techs
+app_price                                 : minlearnprogramming,onekeydevdesk
+app_description                           : minlearnprogramming is a tech book for onekeydevdesk,and onekeydevdesk is a composed implentmented OS towards the “minlearnprogramming” theories.<br>just type ` wget -qO- 1keydd.com/inst.sh | bash ` in your ssh to start. or click left demo to find out the basic live usage
+enable_smart_app_banner                   : false
+email_address                             : minlearn@shalol.com
+telegram_username                         : minlearn_1keydd
+facebook_username                         : 
+instagram_username                        : 
+twitter_username                          : minlearn_1keydd
+github_username                           : minlearn3/onekeydevdesk
+discord_address                           : 
+footer_message                            : 
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+cover_image                               : assets/headerimage.png
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.8
+device_color                              : black
+body_background_color                     : "#ffffff"
+link_color                                : "#1d63ea"
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+feature_icons_foreground_color            : "#1d63ea"
+feature_icons_background_color            : "#e6e6e6"
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+footer_text_color                         : "#666666"
+features                                  : 
+  - title                                 : 1keydd inst.sh
+    description                           : mirror self-contained,support customized machine models,targets,wgetdd and ncdd mode,support customized network configuration
+    fontawesome_icon_name                 : microchip
+  - title                                 : 1keydd transve
+    description                           : transparent pve manager,bring the seamless exp bewteen local and remote virtual vm
+    fontawesome_icon_name                 : microchip
+  - title                                 : 1keydd dirdisk
+    description                           : easy to use directlink cloudstorage generator
+    fontawesome_icon_name                 : microchip
+videos                                    : 
+  - https://player.bilibili.com/player.html?aid=506820101&bvid=BV1ug411N7tn&cid=444234707&page=1
+  - https://player.bilibili.com/player.html?aid=601449095&bvid=BV17B4y1b79Y&cid=786799410&page=1
+  - https://player.bilibili.com/player.html?aid=771487869&bvid=BV1pr4y1j75w&cid=786874040&page=1
